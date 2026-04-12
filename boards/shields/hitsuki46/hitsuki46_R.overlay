@@ -65,10 +65,10 @@
             <&zip_temp_layer 1 5000>;
 
     // Enable low DPI on layyer 3
-    low_dpi {
-        layers = <3>;
-        input-processors = <&zip_xy_scaler 1 5>;
-    } 
+    //low_dpi {
+        //layers = <3>;
+        //input-processors = <&zip_xy_scaler 1 5>;
+    //} 
 
         // Optional: Enable scroll on layer 5
         scroller {
@@ -99,10 +99,10 @@
     input-processors = <&zip_temp_layer 1 5000>;
 
     // Enable low DPI on layyer 3
-    low_dpi {
-        layers = <3>;
-        input-processors = <&zip_xy_scaler 1 5>;
-    } 
+    //low_dpi {
+        //layers = <3>;
+        //input-processors = <&zip_xy_scaler 1 5>;
+    //} 
 
     // Enable scroll on layer 5
     scroller {
