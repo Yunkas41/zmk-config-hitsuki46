@@ -65,7 +65,7 @@
             <&zip_temp_layer 1 5000>;
 
         // Enable low DPI on layyer 3
-        low_dpi {
+        low_dpi: low_dpi {
             layers = <3>;
             input-processors = <&zip_xy_scaler 1 5>;
         } 
@@ -99,7 +99,7 @@
     input-processors = <&zip_temp_layer 1 5000>;
 
     // Enable low DPI on layyer 3
-    low_dpi {
+    low_dpi: low_dpi {
         layers = <3>;
         input-processors = <&zip_xy_scaler 1 5>;
     } 
